@@ -7,6 +7,13 @@ namespace OrderManagementSystem
 {
     class Order
     {
+        /*
+         * Order class represents an order made by a Customer. 
+         * Associated with Products as well as the Employee assigned to deliever the order 
+         * in addition to the customer who placed the order and the Card used to play (if a Card was used).
+         * Identified by the id attribute.
+        */
+
         private string id; //identifier primarily for database
         private string customerEmail;
         private ArrayList productList;

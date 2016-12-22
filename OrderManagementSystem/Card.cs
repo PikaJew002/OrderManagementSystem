@@ -7,6 +7,11 @@ namespace OrderManagementSystem
 {
     class Card
     {
+        /*
+         * Card class represents a credit card associated with a Customer and/or Order.
+         * Identified by the id attribute.
+        */
+
         private string id;
         private string number;
         private string name;

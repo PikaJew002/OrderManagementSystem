@@ -7,6 +7,11 @@ namespace OrderManagementSystem
 {
     class Customer
     {
+        /*
+         * Customer class represents a customer with a profile saved. Can be associated with an Order.
+         * Identified by the email attribute.
+        */
+
         private string email;
         private string firstName;
         private string lastName;

@@ -6,6 +6,11 @@ namespace OrderManagementSystem
 {
     class Item
     {
+        /*
+         * Item class represents a stock Item. Associated with Products which are made using the Items associated with.
+         * Identified by the itemName attribute.
+        */
+
         private string itemName;
         private double itemQuantity = 0; //used when referenced by a product in an order
         private string description;

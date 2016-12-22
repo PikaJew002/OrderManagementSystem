@@ -7,8 +7,14 @@ namespace OrderManagementSystem
 {
     class Product
     {
+        /*
+         * Product class represents a product provided by the store which Customers may Order.
+         * Associated with a list of stock Items that are used in the making of the product.
+         * Identified by the id attribute.
+        */
+
         private string id; //unique id, primary use in database
-        private int productMulti = 1; //used when referenced by a order
+        private int productMulti = 1; //used when referenced by an order
         private ArrayList itemList;
         private double price;
         private string description;
